@@ -14,5 +14,9 @@ def post():
 def comment():
     return 'Ini Halaman Comment'
 
+@application.route('/download')
+def download():
+    return 'Ini Halaman Download'
+
 if __name__ == '__main__':
     application.run(debug=True)
