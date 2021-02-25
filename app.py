@@ -11,4 +11,4 @@ def post():
     return 'Ini Halaman Blog'
 
 if __name__ == '__main__':
-    application.run()
+    application.run(debug=True)
